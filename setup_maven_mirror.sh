@@ -2,7 +2,9 @@
 
 mkdir ~/.m2
 
-tee -a ~/.m2/settings.xml > /dev/null <<EOF
+cd ~/.m2
+
+tee -a ./settings.xml > /dev/null <<EOF
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
